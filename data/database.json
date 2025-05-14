@@ -1,0 +1,124 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Berkay",
+            "email": "berkay@mail.com",
+            "user_type": "admin"
+        },
+        {
+            "id": "2",
+            "name": "Mustafa",
+            "email": "musto@mail.com",
+            "user_type": "member"
+        },
+        {
+            "id": "3",
+            "name": "Mehmet",
+            "email": "mehmet@mail.com",
+            "user_type": "member"
+        }
+    ],
+    "books": [
+        {
+            "id": "1",
+            "title": "Filozofların Tutarsızlığı",
+            "author": "Gazzali",
+            "total_copies": 9,
+            "available_copies": 9
+        },
+        {
+            "id": "2",
+            "title": "Dillerin Kökeni",
+            "author": "Jean-Jacques Rousseau",
+            "total_copies": 10,
+            "available_copies": 9
+        },
+        {
+            "id": "3",
+            "title": "Hayvan Çiftliği",
+            "author": "George Orwell",
+            "total_copies": 20,
+            "available_copies": 20
+        },
+        {
+            "id": "4",
+            "title": "Kardeşimin Hikayesi",
+            "author": "Lütfü Zivaneli",
+            "total_copies": 15,
+            "available_copies": 14
+        },
+        {
+            "id": "5",
+            "title": "Tan Kızıllığı",
+            "author": "Friedrich Nietzsche",
+            "total_copies": 14,
+            "available_copies": 13
+        },
+        {
+            "id": "6",
+            "title": "Suç ve Ceza",
+            "author": "Dostoyevski",
+            "total_copies": 12,
+            "available_copies": 11
+        }
+    ],
+    "transactions": [
+        {
+            "id": "1",
+            "user_id": "1",
+            "book_id": "1",
+            "action": "borrow",
+            "date": "2025-05-12 12:33:54"
+        },
+        {
+            "id": "2",
+            "user_id": "1",
+            "book_id": "1",
+            "action": "return",
+            "date": "2025-05-12 12:34:19"
+        },
+        {
+            "id": "3",
+            "user_id": "2",
+            "book_id": "2",
+            "action": "borrow",
+            "date": "2025-05-12 12:48:46"
+        },
+        {
+            "id": "4",
+            "user_id": "1",
+            "book_id": "4",
+            "action": "borrow",
+            "date": "2025-05-12 12:49:42"
+        },
+        {
+            "id": "5",
+            "user_id": "1",
+            "book_id": "4",
+            "action": "return",
+            "date": "2025-05-12 12:49:53"
+        },
+        {
+            "id": "6",
+            "user_id": "2",
+            "book_id": "5",
+            "action": "borrow",
+            "date": "2025-05-12 14:46:51"
+        },
+        {
+            "id": "7",
+            "user_id": "3",
+            "book_id": "4",
+            "action": "borrow",
+            "date": "2025-05-12 14:47:53"
+        },
+        {
+            "id": "8",
+            "user_id": "3",
+            "book_id": "6",
+            "action": "borrow",
+            "date": "2025-05-13 17:49:25"
+        }
+    ]
+}
